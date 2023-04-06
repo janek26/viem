@@ -44,6 +44,8 @@ export type {
   MaybeExtractEventArgsFromAbi,
 } from './contract'
 
+export type { EIP1193Provider } from './eip1193'
+
 export type { AssetGateway, AssetGatewayUrls } from './ens'
 
 export type {

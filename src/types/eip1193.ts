@@ -15,6 +15,11 @@ import type {
 } from './rpc'
 
 //////////////////////////////////////////////////
+// Provider
+
+export type EIP1193Provider = Requests & Events
+
+//////////////////////////////////////////////////
 // Errors
 
 export class RpcError extends Error {
